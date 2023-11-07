@@ -1,0 +1,68 @@
+Script started on 2023-09-30 21:27:34-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="203" LINES="55"]
+]0;krishnagarg@cs2011vm: ~/cs3013_hws/proj3/proj3[01;32mkrishnagarg@cs2011vm[00m:[01;34m~/cs3013_hws/proj3/proj3[00m$ ./addem 3 31 53 3
+The total for 1 to 3 using 3 threads is 6
+]0;krishnagarg@cs2011vm: ~/cs3013_hws/proj3/proj3[01;32mkrishnagarg@cs2011vm[00m:[01;34m~/cs3013_hws/proj3/proj3[00m$ ./addem 3 31 5
+The total for 1 to 5 using 1 threads is 15
+]0;krishnagarg@cs2011vm: ~/cs3013_hws/proj3/proj3[01;32mkrishnagarg@cs2011vm[00m:[01;34m~/cs3013_hws/proj3/proj3[00m$ ./addem 1 53 31 57[C[C
+The total for 1 to 5 using 7 threads is 15
+]0;krishnagarg@cs2011vm: ~/cs3013_hws/proj3/proj3[01;32mkrishnagarg@cs2011vm[00m:[01;34m~/cs3013_hws/proj3/proj3[00m$ ./addem 7 51[C[C3 31 57[C[C100
+The total for 1 to 100 using 7 threads is 5050
+]0;krishnagarg@cs2011vm: ~/cs3013_hws/proj3/proj3[01;32mkrishnagarg@cs2011vm[00m:[01;34m~/cs3013_hws/proj3/proj3[00m$ ./addem 7 100[2P51[C[C3 31 57[C[C100[1P 1005 100
+The total for 1 to 100 using 5 threads is 5050
+]0;krishnagarg@cs2011vm: ~/cs3013_hws/proj3/proj3[01;32mkrishnagarg@cs2011vm[00m:[01;34m~/cs3013_hws/proj3/proj3[00m$ ./addem 5 100[1P 1001 100
+The total for 1 to 100 using 1 threads is 5050
+]0;krishnagarg@cs2011vm: ~/cs3013_hws/proj3/proj3[01;32mkrishnagarg@cs2011vm[00m:[01;34m~/cs3013_hws/proj3/proj3[00m$ ./addem 1 1005[C[C[C[C[1P 1001 1000 100
+The total for 1 to 100 using 10 threads is 5050
+]0;krishnagarg@cs2011vm: ~/cs3013_hws/proj3/proj3[01;32mkrishnagarg@cs2011vm[00m:[01;34m~/cs3013_hws/proj3/proj3[00m$ ./addem 10 100[1P 1005 100
+Can only make up to 10 threads
+The total for 1 to 100 using 10 threads is 5050
+]0;krishnagarg@cs2011vm: ~/cs3013_hws/proj3/proj3[01;32mkrishnagarg@cs2011vm[00m:[01;34m~/cs3013_hws/proj3/proj3[00m$ ./addem 15 100[C[K[K[K[K[K[K[K[K[K[K[K[Klife test.txt3test.txt test.txt[C[C[C[C[C[C[C[C 2
+Generation 0:
+0 1 0 0 
+0 0 1 0 
+1 0 0 1 
+The game ends after 2 iterations with: 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+]0;krishnagarg@cs2011vm: ~/cs3013_hws/proj3/proj3[01;32mkrishnagarg@cs2011vm[00m:[01;34m~/cs3013_hws/proj3/proj3[00m$ ./life 3 test.txt 2 y
+Generation 0:
+0 1 0 0 
+0 0 1 0 
+1 0 0 1 
+Generation 1: 
+0 0 0 0 
+0 1 1 0 
+0 0 0 0 
+Generation 2: 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+The game ends after 2 iterations with: 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+]0;krishnagarg@cs2011vm: ~/cs3013_hws/proj3/proj3[01;32mkrishnagarg@cs2011vm[00m:[01;34m~/cs3013_hws/proj3/proj3[00m$ ./life 3 test.txt 2 y y
+Generation 0:
+0 1 0 0 
+0 0 1 0 
+1 0 0 1 
+waiting for input...
+
+Generation 1: 
+0 0 0 0 
+0 1 1 0 
+0 0 0 0 
+waiting for input...
+
+Generation 2: 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+The game ends after 2 iterations with: 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+]0;krishnagarg@cs2011vm: ~/cs3013_hws/proj3/proj3[01;32mkrishnagarg@cs2011vm[00m:[01;34m~/cs3013_hws/proj3/proj3[00m$ exit
+
+Script done on 2023-09-30 21:28:21-04:00 [COMMAND_EXIT_CODE="0"]

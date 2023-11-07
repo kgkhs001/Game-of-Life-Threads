@@ -1,0 +1,9 @@
+all: addem life
+
+addem: addem.c life.c
+	gcc addem.c -o addem -lpthread
+	gcc life.c -o life -lpthread
+clean:
+	rm -f addem
+	rm -f life
+
